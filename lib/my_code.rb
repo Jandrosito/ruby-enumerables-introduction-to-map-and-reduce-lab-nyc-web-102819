@@ -38,8 +38,8 @@ def map_to_square(source_array)
   return new
 end
 
-def reduce_to_total(source_array)
-  new = []
+def reduce_to_total(source_array, starting_point)
+  
   i = 0
   while i < 2 do
     new.unshift( source_array[i] + source_array[i + 1] )
