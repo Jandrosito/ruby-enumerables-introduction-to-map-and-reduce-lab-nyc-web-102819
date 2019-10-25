@@ -38,11 +38,11 @@ def map_to_square(source_array)
   return new
 end
 
-def reduce_to_total(source_array, starting_point)
-  
+def reduce_to_total(source_array, starting_point = 0)
+  final_num = 0
   i = 0
-  while i < 2 do
-    new.unshift( source_array[i] + source_array[i + 1] )
+  while i < source_array.length do
+    
     i += 1
   end
   return new
