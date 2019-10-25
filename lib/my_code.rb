@@ -42,7 +42,7 @@ def reduce_to_total(source_array, starting_point = 0)
   final_num = 0
   i = 0
   while i < source_array.length do
-    final_num + source_array[i]
+    final_num += source_array[i]
     i += 1
   end
   return final_num
